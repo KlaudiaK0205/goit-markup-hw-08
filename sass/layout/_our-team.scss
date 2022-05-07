@@ -1,0 +1,39 @@
+.our-team {
+  display: block;
+  background: var(--senary-color);
+  margin-top: 94px;
+}
+  
+.our-team__list {
+  display: flex;
+}
+  
+.our-team__item {
+  background: var(--tertiary-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+  
+.our-team__name {
+  font-weight: 500;
+  color: var(--main-color);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+  
+.our-team__job {
+  font-weight: 400;
+  color: var(--septenary-color);
+}
+  
+.our-team__name,
+.our-team__job {
+  font-size: 16px;
+  line-height: 1.888;
+  text-align: center;
+  letter-spacing: 0.03em;
+}

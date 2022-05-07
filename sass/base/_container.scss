@@ -1,0 +1,30 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+
+  .header & {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 23px;
+  }
+
+  .hero & {
+    display: block;
+    align-items: center;
+  }
+
+  .our-customers & {
+    display: block;
+  }
+
+  .our-strength & {
+    display: inline;
+  }
+
+  .what-we-do {
+    display: block;
+  }
+}
