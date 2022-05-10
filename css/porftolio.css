@@ -381,8 +381,8 @@ img {
 }
 
 .footer .container {
-  display: flex;
-  align-items: baseline;
+  display: block;
+  align-item: center;
 }
 
 .left-side {
@@ -438,7 +438,7 @@ img {
 }
 
 .join-us__item {
-  display: flex;
+  display: block;
 }
 
 .join-us__item:not(:last-child) {
@@ -464,7 +464,7 @@ img {
 }
 
 .singup__list {
-  display: flex;
+  display: block;
 }
 
 .singup__item:not(:last-child) {

@@ -582,6 +582,15 @@ img {
   color: var(--septenary-color);
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .our-strengths__list {
+    margin-left: 15px;
+  }
+  .our-strengths .secondary-header {
+    width: 270px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .our-strengths__list {
     display: flex;
@@ -787,8 +796,8 @@ img {
 }
 
 .footer .container {
-  display: flex;
-  align-items: baseline;
+  display: block;
+  align-item: center;
 }
 
 .left-side {
@@ -844,7 +853,7 @@ img {
 }
 
 .join-us__item {
-  display: flex;
+  display: block;
 }
 
 .join-us__item:not(:last-child) {
@@ -870,7 +879,7 @@ img {
 }
 
 .singup__list {
-  display: flex;
+  display: block;
 }
 
 .singup__item:not(:last-child) {
