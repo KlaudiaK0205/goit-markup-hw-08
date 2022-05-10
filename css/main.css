@@ -555,20 +555,16 @@ img {
 }
 
 .our-strengths__list {
-  display: flex;
+  display: block;
   justify-content: center;
 }
 
-.our-strengths__item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .our-strengths__icon {
-  width: 270px;
+  width: 450px;
   height: 120px;
   background-color: var(--senary-color);
   border-radius: 4px;
-  padding: 25px 100px;
+  padding: 25px 192px;
   margin-bottom: 30px;
 }
 
@@ -578,12 +574,42 @@ img {
 }
 
 .our-strengths__text {
-  width: 270px;
+  width: 450px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--septenary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .our-strengths__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .our-strengths__icon {
+    width: 354px;
+    padding: 25px 144px;
+  }
+  .our-strengths__text {
+    width: 354px;
+  }
+  .our-strengths__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-strengths__list {
+    display: flex;
+  }
+  .our-strengths__icon {
+    width: 270px;
+    padding: 25px 100px;
+  }
+  .our-strengths__text {
+    width: 270px;
+  }
 }
 
 .what-we-do__list {
