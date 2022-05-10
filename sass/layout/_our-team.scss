@@ -1,11 +1,10 @@
 .our-team {
   display: block;
   background: var(--senary-color);
-  margin-top: 94px;
 }
   
 .our-team__list {
-  display: flex;
+  display: block;
 }
   
 .our-team__item {
@@ -36,4 +35,21 @@
   line-height: 1.888;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team {
+    margin-top: 94px;
+  }
+
+  .our-team__list {
+    display: flex;
+  }
 }
