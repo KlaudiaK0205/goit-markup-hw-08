@@ -5,8 +5,8 @@
 .hero__header {
   padding-top: 118px;
   padding-bottom: 30px;
-  // margin-left: auto;
-  // margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 365px;
   font-weight: 900;
   font-size: 26px;
@@ -70,7 +70,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       }
 
   .hero__header {
-    margin-left: 120px;
     width: 365px;
     }
 
@@ -105,8 +104,8 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero__header {
     padding-top: 200px;
     padding-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     width: 652px;
     font-size: 44px;
     line-height: 1.364;
