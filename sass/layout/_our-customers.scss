@@ -1,25 +1,29 @@
+.our-customers {
+
+}
+
 .our-customers__list {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
 }
   
 .our-customers__item {
-border: 1px solid var(--nonary-color);
-box-sizing: border-box;
-border-radius: 4px;
-padding: 16px 50px;
-fill: var(--nonary-color);
-cursor: pointer;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 15px;
+  flex-basis: calc(100% /2 - 60px);
+  border: 1px solid var(--nonary-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  padding: 16px 50px;
+  fill: var(--nonary-color);
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
     fill: var(--secondary-color);
-  }
-
-  &:not(:last-child) {
-    margin-right: 30px;
   }
 }
   

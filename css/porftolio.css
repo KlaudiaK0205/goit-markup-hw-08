@@ -93,7 +93,6 @@ img {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  margin-right: 93px;
 }
 
 .logo__span {
@@ -180,10 +179,16 @@ img {
   color: var(--tertiary-color);
 }
 
+@media screen and (min-width: 380px) and (max-width: 767px) {
+  .secondary-header {
+    padding-top: 60px;
+  }
+}
+
 .social__list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 16px 32px 18px;
 }
 
@@ -382,11 +387,7 @@ img {
 
 .footer .container {
   display: block;
-  align-item: center;
-}
-
-.left-side {
-  margin-right: 70px;
+  text-align: center;
 }
 
 .address__home {
@@ -423,26 +424,9 @@ img {
   color: var(--secondary-color);
 }
 
-.middle-side {
-  display: block;
-  margin-right: 78px;
-}
-
 .middle-side > .secondary-header,
 .right-side > .secondary-header {
   padding-bottom: 20px;
-}
-
-.join-us__list {
-  display: flex;
-}
-
-.join-us__item {
-  display: block;
-}
-
-.join-us__item:not(:last-child) {
-  margin-right: 10px;
 }
 
 .join-us__link {
@@ -472,7 +456,7 @@ img {
 }
 
 .singup__email {
-  width: 358px;
+  width: 450px;
   height: 50px;
   display: flex;
   font-weight: 400;
@@ -494,16 +478,34 @@ img {
   border-color: var(--secondary-color);
 }
 
-.singup__item .modal-btn {
-  display: flex;
-  width: 200px;
-  height: 50px;
-  padding-left: 42px;
-}
-
 .singup__icon {
   width: 24px;
   height: 24px;
   margin-left: 24px;
+}
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+  .join-us__list {
+    display: flex;
+    justify-content: center;
+  }
+  .join-us__item {
+    display: block;
+  }
+  .join-us__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .singup__email {
+    margin-bottom: 20px;
+  }
+  .singup__item .modal-btn {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding-left: 42px;
+  }
+  .singup__item {
+    justify-content: center;
+  }
 }
 /*# sourceMappingURL=porftolio.css.map */

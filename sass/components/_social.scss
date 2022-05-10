@@ -1,7 +1,9 @@
+
 .social__list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  // justify-content: space-between;
   padding: 16px 32px 18px;
 }
   
@@ -27,3 +29,9 @@
   width: 20px;
   height: 20px;
 }  
+
+@media screen and (min-width: 380px) and (max-width: 767px) {}
+@media screen and (min-width: 768px) {}
+
+
+@media screen and (min-width: 1200px) {}
