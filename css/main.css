@@ -474,7 +474,7 @@ img {
 }
 
 .hero .modal-btn {
-  margin-left: 80px;
+  margin-left: 125px;
   margin-bottom: 118px;
   font-weight: 700;
   font-size: 16px;
@@ -556,7 +556,6 @@ img {
 
 .our-strengths__list {
   display: block;
-  justify-content: center;
 }
 
 .our-strengths__icon {
@@ -583,11 +582,14 @@ img {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .our-strengths__list {
+  .our-strengths__item {
     margin-left: 15px;
   }
+  .our-strengths__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
   .our-strengths .secondary-header {
-    width: 270px;
+    text-align: center;
   }
 }
 

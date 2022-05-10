@@ -1,7 +1,5 @@
 .our-strengths__list {
   display: block;
-  justify-content: center;
-
 }
 
 .our-strengths__icon {
@@ -27,13 +25,19 @@
   color: var(--septenary-color);
 }
 
+
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .our-strengths__list {
-  margin-left: 15px;
+  .our-strengths__item {
+    margin-left: 15px;
+    
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
   }
 
   .our-strengths .secondary-header {
-    width: 270px;
+    text-align: center;
   }
 }
 
