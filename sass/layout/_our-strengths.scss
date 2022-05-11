@@ -1,5 +1,6 @@
 .our-strengths__list {
   display: block;
+
 }
 
 .our-strengths__icon {
@@ -14,18 +15,18 @@
 .our-strengths .secondary-header {
   color: var(--main-color);
   padding-bottom: 10px;
+  padding-top: 0;
 }
 
 .our-strengths__text {
   width: 450px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--septenary-color);
 }
-
-
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .our-strengths__item {
