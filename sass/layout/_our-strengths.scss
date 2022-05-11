@@ -1,6 +1,5 @@
 .our-strengths__list {
   display: block;
-
 }
 
 .our-strengths__icon {
@@ -20,7 +19,6 @@
 
 .our-strengths__text {
   width: 450px;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -46,8 +44,6 @@
   .our-strengths__list {
     display: flex;
     flex-wrap: wrap;
-    // margin-left: 15px;
-    // justify-content: flex-start;
    }
 
    .our-strengths__icon {
@@ -60,9 +56,12 @@
   }
 
   .our-strengths__item {
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-basis: calc(100% / 2 - 60px);
     
     &:not(:last-child) {
-      margin-right: 30px;
+      margin-bottom: 30px;
     }
   }
 }
