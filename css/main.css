@@ -51,6 +51,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -134,9 +136,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .logo {
-    margin-top: 26px;
-    margin-bottom: 26px;
-    margin-right: 83px;
+    margin-left: 115px;
+    margin-right: 234px;
   }
 }
 
@@ -387,6 +388,13 @@ img {
 .social__icon {
   width: 20px;
   height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .social__list {
+    display: flex;
+    padding: 16px 32px 24px;
+  }
 }
 
 .header {
@@ -836,7 +844,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .our-team {
     margin-top: 94px;
   }
@@ -877,19 +885,12 @@ img {
   .our-customers__list {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
   }
   .our-customers__item {
-    border: 1px solid var(--nonary-color);
-    box-sizing: border-box;
-    border-radius: 4px;
-    padding: 16px 50px;
-    fill: var(--nonary-color);
-    cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .our-customers__item:hover, .our-customers__item:focus {
-    fill: var(--secondary-color);
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-basis: calc(100% / 3 - 60px);
   }
   .our-customers__item:not(:last-child) {
     margin-right: 30px;
@@ -1059,6 +1060,62 @@ img {
   }
   .singup__item {
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    display: block;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .left-side {
+    display: block;
+    margin-top: -15px;
+  }
+  .middle-side {
+    display: block;
+  }
+  .join-us__list {
+    display: flex;
+  }
+  .join-us__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .address-box {
+    display: flex;
+  }
+  .address__home,
+  .address__mailto,
+  .address__phone {
+    margin-left: -100px;
+  }
+  .right-side {
+    display: block;
+    justify-content: center;
+    padding-top: 60px;
+  }
+}
+
+.singup__email {
+  margin-left: 166px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: flex;
+  }
+  .left-side {
+    display: flex;
+    margin-right: 70px;
+  }
+  .middle-side {
+    display: flex;
+    margin-right: 78px;
+  }
+  .right-side {
+    display: block;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -31,6 +31,7 @@
 
 @media screen and (min-width: 768px) {
   .social__list {
+    display: flex;
     padding: 16px 32px 24px;
   }
 }
