@@ -58,7 +58,7 @@ img {
   padding: 0 15px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 480px;
     align-items: center;
@@ -187,13 +187,19 @@ img {
 }
 
 .main-header {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.667;
+  font-size: 28px;
+  line-height: 1.176;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+}
+
+@media screen and (mix-width: 1200px) {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.667;
 }
 
 .secondary-header {
@@ -204,12 +210,6 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--tertiary-color);
-}
-
-@media screen and (min-width: 380px) and (max-width: 767px) {
-  .secondary-header {
-    padding-top: 60px;
-  }
 }
 
 .social__list {
