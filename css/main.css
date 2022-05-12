@@ -72,6 +72,8 @@ img {
   .container {
     width: 480px;
     align-items: center;
+  }
+  __header .logo {
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -87,9 +89,11 @@ img {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    align-items: center;
+  }
+  __header .logo {
     padding-top: 25px;
     padding-bottom: 25px;
-    align-items: center;
   }
 }
 
@@ -528,6 +532,11 @@ img {
   .header .mailto {
     margin-right: 50px;
   }
+  .mailto,
+  .phone {
+    font-size: 14px;
+    line-height: 1.143;
+  }
   .navigation__link,
   .mailto,
   .phone {
@@ -651,7 +660,7 @@ img {
     width: 365px;
   }
   .hero .modal-btn {
-    margin-left: 200px;
+    margin-left: 269px;
   }
 }
 

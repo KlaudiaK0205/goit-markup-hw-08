@@ -8,8 +8,15 @@
   .container {
   width: 480px;
   align-items: center;
-  padding-top: 16px;
-  padding-bottom: 16px
+  }
+
+  &__header .logo {
+    padding-top: 16px;
+    padding-bottom: 16px
+  }
+
+  &__hero {
+
   }
 }
 
@@ -23,9 +30,13 @@
 @media screen and (min-width:1200px) {
   .container {
     width: 1200px;
+    align-items: center;
+
+  }
+
+  &__header .logo {
     padding-top: 25px;
     padding-bottom: 25px;
-    align-items: center;
   }
 }
 
