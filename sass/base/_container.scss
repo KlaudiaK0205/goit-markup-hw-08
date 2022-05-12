@@ -1,41 +1,33 @@
 .container {
   width: 100%;
   padding: 0 15px;
-  margin: 0 auto;
+
 }
 
 @media screen and (min-width: 480px) {
   .container {
   width: 480px;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px
   }
 }
 
 @media screen and (min-width:768px) {
   .container {
     width: 768px;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width:1200px) {
   .container {
     width: 1200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     align-items: center;
   }
 }
-
-
-// .container {
-//   width: 1200px;
-//   padding: 0 15px;
-//   align-items: center;
-//   margin: 0 auto;
-
-//   .header & {
-//     display: flex;
-//     align-items: center;
-//     padding-top: 24px;
-//     padding-bottom: 23px;
-//   }
 
 //   .hero & {
 //     display: block;

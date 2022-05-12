@@ -1,11 +1,10 @@
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+  font-size: 24px;
+  line-height: 1.167;
   letter-spacing: 0.03em;
  
-
   &__span {
     color: var(--secondary-color);
   }
@@ -21,12 +20,6 @@
   }
 }
 
-@media screen and (min-width: 380px)and (max-width: 767px) {}
-  .logo {
-    margin-top: 15px;
-    margin-bottom: 15px
-}
-
 @media screen and (min-width: 768px) {
   .logo {
     margin-right: 83px;
@@ -35,8 +28,9 @@
 
 @media screen and (min-width: 1200px) {
   .logo {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    font-size: 26px;
+    line-height: 1.192;
+    margin-left: 215px;
     margin-right: 93px;
   }
 }
