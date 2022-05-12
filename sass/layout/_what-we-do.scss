@@ -7,12 +7,22 @@
 }
   
 @media screen and (min-width: 1200px) {
+  .what-we-do .main-header {
+    display: flex;
+    margin-left: 424px;
+    margin-bottom: 50px;
+    // margin-top: 25px;
+    // margin-bottom: 25px;
+  }
+
   .what-we-do__list {
     display: flex;
   }
 
   .what-we-do__item {
     position: relative;
+    
+  
   
     &:not(:last-child) {
       margin-right: 30px;
@@ -23,6 +33,7 @@
     width: 370px;
     height: 70px;
     text-align: center;
+
     text-transform: uppercase;
     background: rgba(47, 48, 58, 0.8);
     color: var(--tertiary-color);

@@ -31,18 +31,12 @@
   .our-customers__list {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    margin-left: 15px;
   }
     
   .our-customers__item {
-    margin-left: 15px;
-    margin-right: 15px;
     flex-basis: calc(100% / 3 - 60px);
-  
-    &:not(:last-child) {
-      margin-right: 30px;
     }
-  }
     
   .our-customers__icon {
     width: 106px;

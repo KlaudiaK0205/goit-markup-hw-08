@@ -4,6 +4,7 @@
 
 .header .container {
   display: flex;
+  
 }
   
 .navigation {
@@ -18,7 +19,7 @@
 
 .menu-btn {
   margin-left: auto;
-  padding-top: -15px;
+  // padding-top: -15px;
   border: none;
   background-color: transparent;
 } 
@@ -44,6 +45,8 @@
   }
   
   .navigation__item {
+    padding-top: 25px;
+    padding-bottom: 25px;
     
     &:not(:last-child) {
       margin-right: 60px;

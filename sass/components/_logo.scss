@@ -4,6 +4,8 @@
   font-size: 24px;
   line-height: 1.167;
   letter-spacing: 0.03em;
+  padding-top: 16px;
+  padding-bottom: 16px;
  
   &__span {
     color: var(--secondary-color);
@@ -23,6 +25,7 @@
 @media screen and (min-width: 768px) {
   .logo {
     margin-right: 83px;
+    
   }
 }
 
@@ -30,6 +33,8 @@
   .logo {
     font-size: 26px;
     line-height: 1.192;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-left: 215px;
     margin-right: 93px;
   }
