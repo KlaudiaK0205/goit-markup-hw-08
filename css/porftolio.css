@@ -54,6 +54,7 @@ img {
 }
 
 .container {
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -95,8 +96,6 @@ img {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .logo__span {
@@ -113,10 +112,14 @@ img {
   background-color: var(--quaternary-color);
 }
 
+.logo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 @media screen and (min-width: 768px) {
   .logo {
-    margin-left: 115px;
-    margin-right: 234px;
+    margin-right: 83px;
   }
 }
 
@@ -554,6 +557,19 @@ img {
   padding-bottom: 20px;
 }
 
+.join-us__list {
+  display: flex;
+  justify-content: center;
+}
+
+.join-us__item {
+  display: block;
+}
+
+.join-us__item:not(:last-child) {
+  margin-right: 10px;
+}
+
 .join-us__link {
   display: flex;
   width: 44px;
@@ -583,7 +599,8 @@ img {
 .singup__email {
   width: 450px;
   height: 50px;
-  display: flex;
+  margin-left: 0;
+  margin-right: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -617,31 +634,6 @@ img {
   margin-left: 24px;
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
-  .join-us__list {
-    display: flex;
-    justify-content: center;
-  }
-  .join-us__item {
-    display: block;
-  }
-  .join-us__item:not(:last-child) {
-    margin-right: 10px;
-  }
-  .singup__email {
-    margin-bottom: 20px;
-  }
-  .singup__item .modal-btn {
-    display: flex;
-    width: 200px;
-    height: 50px;
-    padding-left: 42px;
-  }
-  .singup__item {
-    justify-content: center;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .footer .container {
     display: block;
@@ -654,6 +646,7 @@ img {
   }
   .middle-side {
     display: block;
+    margin-right: 144px;
   }
   .join-us__list {
     display: flex;
@@ -663,6 +656,7 @@ img {
   }
   .address-box {
     display: flex;
+    margin-left: 76px;
   }
   .address__home,
   .address__mailto,
@@ -671,30 +665,49 @@ img {
   }
   .right-side {
     display: block;
-    justify-content: center;
     padding-top: 60px;
   }
 }
 
 .singup__email {
-  margin-left: 166px;
   margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1200px) {
   .footer .container {
     display: flex;
+    align-items: baseline;
+    text-align: left;
   }
   .left-side {
-    display: flex;
     margin-right: 70px;
   }
   .middle-side {
-    display: flex;
+    display: block;
     margin-right: 78px;
   }
-  .right-side {
-    display: block;
+  .join-us__list {
+    display: flex;
+  }
+  .join-us__item {
+    display: flex;
+  }
+  .singup__list {
+    display: flex;
+  }
+  .address__home,
+  .address__mailto,
+  .address__phone {
+    margin-left: 0;
+  }
+  .singup__item:not(:last-child) {
+    margin-right: 12px;
+  }
+  .singup__item .modal-btn {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding-left: 42px;
   }
 }
 /*# sourceMappingURL=porftolio.css.map */
