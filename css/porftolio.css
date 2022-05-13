@@ -220,12 +220,6 @@ img {
   color: var(--tertiary-color);
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .secondary-header {
-    margin-top: 60px;
-  }
-}
-
 .social__list {
   display: flex;
   align-items: center;
