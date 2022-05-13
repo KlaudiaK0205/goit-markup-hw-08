@@ -158,7 +158,7 @@ img {
   color: var(--main-color);
 }
 
-@media screen and (mix-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .main-header {
     margin-bottom: 50px;
     font-size: 36px;
@@ -453,6 +453,9 @@ img {
     width: 18px;
     height: 18px;
   }
+  .close-btn-icon__menu {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -505,6 +508,13 @@ img {
   .social__list {
     display: flex;
     padding: 16px 32px 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social__list {
+    justify-content: space-between;
+    padding: 16px 32px 18px;
   }
 }
 
@@ -638,83 +648,27 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .header-contact {
-    display: flex;
-    padding-top: 0;
+  .header .logo {
+    padding: 24px 0 25px 0;
+    margin-right: 93px;
+    align-items: center;
   }
   .navigation__list {
     display: flex;
     align-items: center;
   }
+  .navigation__item {
+    padding-top: -25px;
+    padding-bottom: -25px;
+  }
   .navigation__item:not(:last-child) {
     margin-right: 46px;
   }
+  .header-contact {
+    display: flex;
+  }
   .header .mailto {
     margin-right: 50px;
-  }
-  .mailto,
-  .phone {
-    font-size: 14px;
-    line-height: 1.143;
-  }
-  .navigation__link,
-  .mailto,
-  .phone {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .navigation__link:hover, .navigation__link:focus,
-  .mailto:hover,
-  .mailto:focus,
-  .phone:hover,
-  .phone:focus {
-    color: var(--secondary-color);
-  }
-  .navigation__link {
-    color: var(--main-color);
-  }
-  .mailto,
-  .phone {
-    color: var(--septenary-color);
-  }
-  .mailto:hover, .mailto:focus,
-  .phone:hover,
-  .phone:focus {
-    color: var(--secondary-color);
-  }
-  .mailto {
-    margin-left: auto;
-  }
-  .mailto__item,
-  .phone__item {
-    width: 16px;
-    height: 12px;
-    cursor: pointer;
-    margin-right: 10px;
-  }
-  .agency--main::after {
-    position: absolute;
-    top: 76px;
-    display: block;
-    content: "";
-    width: 53px;
-    height: 4px;
-    background: var(--secondary-color);
-    border-radius: 2px;
-  }
-  .portfolio--main::after {
-    position: absolute;
-    top: 76px;
-    display: block;
-    content: "";
-    width: 58px;
-    height: 4px;
-    background: var(--secondary-color);
-    border-radius: 2px;
   }
 }
 
@@ -795,8 +749,8 @@ img {
     background-color: var(--quaternary-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-image.jpg);
     background-repeat: no-repeat;
-    background-position: cover;
-    background-size: 1600px 600px;
+    background-position: center;
+    background-size: cover;
   }
   .hero__header {
     padding-top: 200px;
@@ -892,9 +846,13 @@ img {
   .our-strengths__list {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
   }
   .our-strengths__item {
-    flex-basis: calc(100% / 4);
+    flex-basis: auto;
+  }
+  .our-strengths__item:not(:last-child) {
+    margin-right: 30px;
   }
   .our-strengths__icon {
     width: 270px;
@@ -1053,9 +1011,14 @@ img {
   .our-customers__list {
     display: flex;
     flex-wrap: nowrap;
+    margin-left: 0;
+    justify-content: center;
   }
   .our-customers__item {
+    margin: 0px;
     border: 1px solid var(--nonary-color);
+    flex-basis: auto;
+    padding: 16px 32px;
     box-sizing: border-box;
     border-radius: 4px;
     padding: 16px 32px;
@@ -1209,7 +1172,8 @@ img {
     align-items: center;
   }
   .left-side {
-    margin-right: 70px;
+    margin-left: 61px;
+    margin-right: 144px;
   }
   .address-box {
     display: flex;
@@ -1247,9 +1211,11 @@ img {
   }
   .footer .container {
     display: flex;
+    text-align: left;
     align-items: baseline;
   }
   .left-side {
+    margin-left: 0;
     margin-right: 70px;
   }
   .address__home {
@@ -1314,6 +1280,9 @@ img {
     fill: var(--tertiary-color);
     background-color: var(--secondary-color);
   }
+  .right-side {
+    padding-top: 0;
+  }
   .singup__list {
     display: flex;
   }
@@ -1346,6 +1315,7 @@ img {
     width: 200px;
     height: 50px;
     padding-left: 42px;
+    margin-top: 0;
   }
   .singup__icon {
     width: 24px;

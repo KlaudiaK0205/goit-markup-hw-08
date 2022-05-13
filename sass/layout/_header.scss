@@ -146,10 +146,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .header .container {
-    width: 1200px;
-  }
-
   .header .logo {
     padding: 24px 0 25px 0;
     margin-right: 93px;
@@ -169,7 +165,11 @@
       margin-right: 46px;
     }
   }
-    
+
+  .header-contact {
+    display: flex;
+  }
+
   .header .mailto {
     margin-right: 50px;
   }

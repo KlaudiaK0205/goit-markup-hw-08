@@ -133,7 +133,8 @@
   }
     
   .left-side {
-    margin-right: 70px;
+    margin-left: 61px;
+    margin-right: 144px;
   }
     
   .address-box {
@@ -143,7 +144,7 @@
 
   }
 
-    .middle-side {
+  .middle-side {
     display: block;
     margin-right: 78px;
   }
@@ -156,6 +157,7 @@
   .right-side {
     padding-top: 60px;
   }
+
   .singup__list {
     display: block;
   }
@@ -180,11 +182,12 @@
     
   .footer .container {
     display: flex;
-    align-items: baseline;
     text-align: left;
+    align-items: baseline;
   }
     
   .left-side {
+    margin-left: 0;
     margin-right: 70px;
   }
     
@@ -260,6 +263,10 @@
     }
   }
     
+   .right-side {
+    padding-top: 0;
+  }
+
   .singup__list {
     display: flex;
   }
@@ -299,7 +306,7 @@
     width: 200px;
     height: 50px;
     padding-left: 42px;
-    margin-top: -20px;
+    margin-top: 0;
   }
     
   .singup__icon {

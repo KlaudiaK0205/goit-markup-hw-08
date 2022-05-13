@@ -8,11 +8,10 @@
   color: var(--main-color);
 }
 
-@media screen and (mix-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .main-header {
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.667;
-   
   }
  }

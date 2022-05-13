@@ -42,25 +42,28 @@
     width: 106px;
     height: 60px;
   }
-
 }
 
 @media screen and (min-width: 1200px) {
-  
-.our-customers__list {
+  .our-customers__list {
   display: flex;
   flex-wrap: nowrap;
+  margin-left: 0;
+  justify-content: center;
 }
   
 .our-customers__item {
-border: 1px solid var(--nonary-color);
-box-sizing: border-box;
-border-radius: 4px;
-padding: 16px 32px;
-fill: var(--nonary-color);
-cursor: pointer;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0px;
+  border: 1px solid var(--nonary-color);
+  flex-basis: auto;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px 32px;
+  fill: var(--nonary-color);
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
@@ -75,5 +78,5 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .our-customers__icon {
   width: 106px;
   height: 60px;
-}
+  }
 }

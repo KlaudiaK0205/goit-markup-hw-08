@@ -79,12 +79,16 @@
   .our-strengths__list {
     display: flex;
     flex-wrap: nowrap;
-
+    justify-content: center;
   }
     
   .our-strengths__item {
-    flex-basis: calc(100% / 4);
-  }
+    flex-basis: auto;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+      }
+}
     
    .our-strengths__icon {
     width: 270px;
