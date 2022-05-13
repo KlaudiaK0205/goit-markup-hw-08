@@ -20,28 +20,10 @@
 @media screen and (min-width:1200px) {
   .container {
     width: 1200px;
-    align-items: center;
+    // align-items: center;
   }
 
-  // &__body {
-  //   width: 1600px;
-  // }
+  .body {
+    width: 1600px;
+  }
 }
-
-//   .hero & {
-//     display: block;
-//     align-items: center;
-//   }
-
-//   .our-customers & {
-//     display: block;
-//   }
-
-//   .our-strength & {
-//     display: inline;
-//   }
-
-//   .what-we-do {
-//     display: block;
-//   }
-// }

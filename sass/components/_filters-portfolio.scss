@@ -1,10 +1,12 @@
 .button__list {
   display: flex;
-  padding-bottom: 50px ;
-  justify-content: center;
+  padding-bottom: 30px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
   
 .button__item {
+  margin-bottom: 15px;
 
   &:hover,
   &:focus {
@@ -13,5 +15,13 @@
 
   &:not(:last-child) {
     margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button__list {
+    padding-bottom: 50px;
+    justify-content: center;
+    flex-wrap: nowrap;
   }
 }

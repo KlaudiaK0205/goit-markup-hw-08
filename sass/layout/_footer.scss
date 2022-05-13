@@ -129,7 +129,7 @@
   .footer .container {
     display: block;
     align-items: baseline;
-    justify-content: center;
+    // justify-content: center;
   }
   
 
@@ -182,44 +182,49 @@ margin-left: -100px;
     display: flex;
     align-items: baseline;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
     
   .left-side {
     margin-right: 70px;
+    margin-left: -61px;
   }
     
-        
+  .address-box {
+    display: flex;
+    margin-left: 0px;
+  }
+    
   .middle-side {
     display: block;
+    margin-left: 0;
     margin-right: 78px;
   }
-    
-    
+        
   .join-us__list {
     display: flex;
   }
     
   .join-us__item {
     display: flex;
+  
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
   }
         
   .singup__list {
     display: flex;
   }
     
-  .address__home,
-  .address__mailto,
-  .address__phone {
-    margin-left: 0;
-  }
-
-  .singup__item {
   
-    &:not(:last-child) {
-      margin-right: 12px;
-    }
+  .singup__email {
+    width: 358px;
+    display: flex;
   }
-      
+    
   .singup__item .modal-btn {
     display: flex;
     width: 200px;
