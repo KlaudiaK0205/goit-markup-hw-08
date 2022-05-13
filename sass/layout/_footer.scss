@@ -181,6 +181,7 @@
   .footer .container {
     display: flex;
     align-items: baseline;
+    text-align: left;
   }
     
   .left-side {
@@ -298,6 +299,7 @@
     width: 200px;
     height: 50px;
     padding-left: 42px;
+    margin-top: -20px;
   }
     
   .singup__icon {
