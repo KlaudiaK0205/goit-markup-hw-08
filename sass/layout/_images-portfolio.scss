@@ -1,7 +1,3 @@
-// .main {
-//   width: 1600px;
-// }
-
 .images__list {
   display: block;
   margin-left: -30px;
@@ -81,9 +77,6 @@
   border-right: 1px solid var(--octonary-color);
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {}
-
-
 @media screen and (min-width: 768px) {
   .images__list {
     display: flex;
@@ -104,9 +97,12 @@
   .images__list {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 0px;
+    margin-left: -30px;
   }
     
   .images__item {
     width: 370px;
+
   }
 }
