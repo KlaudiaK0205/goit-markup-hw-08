@@ -64,6 +64,7 @@ img {
 .container {
   width: 100%;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -75,16 +76,15 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    width: 768px;
     align-items: center;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    min-width: 1200px;
+    width: 1200px;
     align-items: center;
-    margin: 0 auto;
   }
 }
 
@@ -822,6 +822,7 @@ img {
   .our-strengths__list {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
   }
   .our-strengths__icon {
     width: 354px;
@@ -838,7 +839,8 @@ img {
     width: 354px;
   }
   .our-strengths__item {
-    flex-basis: calc(100% / 2 - 15px);
+    margin: 15px;
+    flex-basis: calc(100% / 2 - 60px);
   }
 }
 

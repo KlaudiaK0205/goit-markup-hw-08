@@ -51,6 +51,7 @@
   .our-strengths__list {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
    }
 
    .our-strengths__icon {
@@ -71,7 +72,8 @@
   }
 
   .our-strengths__item {
-    flex-basis: calc(100% / 2 - 15px);
+    margin: 15px;
+    flex-basis: calc(100% / 2 - 60px);
   }
 }
 
