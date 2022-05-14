@@ -806,10 +806,6 @@ img {
   }
 }
 
-.our-strengths__item {
-  margin-left: 15px;
-}
-
 .our-strengths__item:not(:last-child) {
   margin-bottom: 30px;
 }
