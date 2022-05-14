@@ -423,6 +423,11 @@ img {
   .header .mailto {
     margin-right: 50px;
   }
+  .mailto,
+  .phone {
+    font-size: 14px;
+    line-height: 1.143;
+  }
 }
 
 .images__list {
@@ -507,6 +512,9 @@ img {
   .images__item {
     width: 354px;
     height: auto;
+  }
+  .images__type:first-child {
+    padding-bottom: 54px;
   }
 }
 
